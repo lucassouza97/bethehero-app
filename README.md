@@ -19,7 +19,7 @@
 <br>
 
 <p align="center">
-  <img alt="BeTheHero" src="/bethehero.png" width="100%">
+  <img alt="BeTheHero" src="/frontend/public/assets/frontend.png" width="100%">
 </p>
 
 ## :page_with_curl: About
