@@ -19,6 +19,7 @@
 <br>
 
 <p align="center">
+ <img src="./frontend/public/frontend.png" width="100%" /><br>
   <img src="./frontend/public/frontend.png" width="100%" />
 </p>
 
