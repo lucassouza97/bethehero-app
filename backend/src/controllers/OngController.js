@@ -22,5 +22,15 @@ module.exports = {
         })
 
         return res.json({ id });
+    },
+    //adição de rota para remover a ong, será criada uma permissão para somente um perfil específico realizar a operação
+    async delete(req, res){
+        const { id } = req.params;
+        const ongs = await connection('ongs')
+        .where('id', id)
+        .select('id')
+        .first();
+        await connection('ongs').where('id', id).delete();
+        return res.status(204).send();
     }
 };
